@@ -1,0 +1,17 @@
+[
+  {
+    "id": "6d6cc3fe-ac13-4768-993e-c65f8a75cc1b",
+    "jobId": "1",
+    "jobTitle": "Senior Frontend Developer",
+    "company": "Tech Corp",
+    "applyUrl": "https://example.com/apply/1",
+    "status": "Applied",
+    "appliedAt": "2026-03-21T01:12:05.153Z",
+    "timeline": [
+      {
+        "event": "Applied",
+        "timestamp": "2026-03-21T01:12:05.154Z"
+      }
+    ]
+  }
+]

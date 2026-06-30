@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Job Tracker API Server",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node  --watch src/index.js",
+    "build": "echo \"No build step needed for Node.js\"",
+    "start": "node src/index.js",
+    "lint": "echo \"Linting disabled\""
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.4.2",
+    "@fastify/multipart": "^8.0.0",
+    "@langchain/langgraph": "^1.2.5",
+    "@langchain/openai": "^0.2.11",
+    "dotenv": "^17.3.1",
+    "fastify": "^4.25.2",
+    "langchain": "^0.2.0",
+    "openai": "^4.12.0",
+    "pdf-parse": "^1.1.1",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "node": "^18.0.0"
+  }
+}
